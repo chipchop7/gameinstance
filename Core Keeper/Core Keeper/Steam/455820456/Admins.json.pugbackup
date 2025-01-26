@@ -1,0 +1,11 @@
+{
+    "adminList": [
+        {
+            "index": 1,
+            "privileges": 2,
+            "name": "Matsumoto",
+            "steamId": 76561198416086184,
+            "crossPlatformId": 4915877266161926271
+        }
+    ]
+}

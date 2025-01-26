@@ -1,0 +1,633 @@
+Mono path[0] = 'D:/SteamLibrary/steamapps/common/Core Keeper/CoreKeeper_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/Core Keeper/MonoBleedingEdge/etc'
+JobSystem: Creating JobQueue using job-worker-count value 4
+[PhysX] Initialized MultithreadedTaskDispatcher with 5 workers.
+Loading player data from D:/SteamLibrary/steamapps/common/Core Keeper/CoreKeeper_Data/data.unity3d
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/Core Keeper/CoreKeeper_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.5599
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.147 seconds
+- Finished resetting the current domain, in  0.001 seconds
+PlatformConfiguration: loading platform configuration for variant Windows.
+PlatformConfiguration: platform configuration for variant Windows was not found.
+PlatformConfiguration: loading platform configuration for variant PC.
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Core Keeper/CoreKeeper_Data/MonoBleedingEdge/data-000002DAED0EA0B0.dll
+Initializing Steamworks with AppID 1621690
+Steam API initialized branch=
+no mod.io mods loaded User not authenticated. (code: 20100)
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+SpriteInstancingAtlas: Packing completed in 9 iterations (2.089 seconds) fits=True.
+[PhysX] Initialized MultithreadedTaskDispatcher with 5 workers.
+UnloadTime: 1.448100 ms
+Checking system requirements: PASS
+Skipping automatic Manager prelaunch because this should be done manually in the Loading scene.
+Ignoring invalid [Unity.Entities.UpdateAfterAttribute] attribute on Unity.Entities.CompanionGameObjectUpdateTransformSystem targeting Unity.Transforms.TransformSystemGroup.
+This attribute can only order systems that are members of the same ComponentSystemGroup instance.
+Make sure that both systems are in the same system group with [UpdateInGroup(typeof(Unity.Entities.SimulationSystemGroup))],
+or by manually adding both systems to the same group's update list.
+Initialize global manager
+Global manager Resources.Load
+Start initializing all managers
+Core count is 16
+Job worker count is 4
+couldn't initialize discord SDK: Ok InternalError
+CloudSyncDown
+PlatformConfiguration: applying settings for platform variant Windows.
+PlatformConfiguration: applying PrefsManager visual quality settings.
+PlatformConfiguration: applying PrefsManager audio settings.
+PlatformConfiguration: applying PrefsManager session settings.
+Version: 1.0.1.11-b55b
+Time (UTC): 2025-01-10T12:16:39Z
+Added memory pools for 565 prefabs from PooledGraphicalObjectBank
+Added memory pools for 67 prefabs from PooledParticleSystemBank
+using color lookup at D:/SteamLibrary/steamapps/common/Core Keeper/CoreKeeper_Data/StreamingAssets/Textures/ColorGrading.png
+Skipping faction mod D:/SteamLibrary/steamapps/common/Core Keeper/CoreKeeper_Data/StreamingAssets/Conf/Factions\None.json with faction None (0)
+Skipping loot mod D:/SteamLibrary/steamapps/common/Core Keeper/CoreKeeper_Data/StreamingAssets/Conf/Loot\Empty.json for loot table Empty (0)
+Found 319 converter(s)
+Converting 2403 root objects for Default World with 319 converters, 7 post-converters in staging world, and 4 post-converters in final world.
+FinishConversionQueue: forcing a frame update at 506.9023 ms from previous.
+PugDatabase initialized 2402 prefabs
+No iCUE server detected
+WaterSim.LazyInitialize: created the surface texture.
+WaterSim.LazyInitialize: created the state texture.
+WaterSim.LazyInitialize: created the previous state texture.
+Steam stats received
+Steam stats received
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+got language code ja
+Setting language to Japanese from English
+Unloading 5 Unused Serialized files (Serialized files now loaded: 2)
+UnloadTime: 6.244800 ms
+MusicManager: start loading addressable asset [cc83026275aa73a4381a3c8c1b855b86].
+Unloading 9945 unused Assets to reduce memory usage. Loaded Objects now: 597179.
+Total: 128.971700 ms (FindLiveObjects: 40.068900 ms CreateObjectMapping: 13.357800 ms MarkObjects: 70.725400 ms  DeleteObjects: 4.818900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 597180.
+Total: 115.188300 ms (FindLiveObjects: 35.513900 ms CreateObjectMapping: 8.257000 ms MarkObjects: 71.018300 ms  DeleteObjects: 0.398600 ms)
+
+MusicManager: loading addressable asset [[cc83026275aa73a4381a3c8c1b855b86]|Main_Menu] complete.
+checking if bilibili was connected at start
+Couldn't find backing drive, assumes there is space
+Player has privileges for Multiplayer, UGC, PremiumSubscription
+Player has ALL privileges
+Unloading 3 Unused Serialized files (Serialized files now loaded: 3)
+UnloadTime: 6.095600 ms
+MusicManager: releasing addressable asset Main_Menu.
+Ignoring invalid [Unity.Entities.UpdateAfterAttribute] attribute on InitializeAttackPlayerSpawnedGhostSystem targeting Unity.NetCode.GhostSendSystem.
+This attribute can only order systems that are members of the same ComponentSystemGroup instance.
+Make sure that both systems are in the same system group with [UpdateInGroup(typeof(Unity.Entities.SimulationSystemGroup))],
+or by manually adding both systems to the same group's update list.
+StartGameRPCSystem OnCreate
+No mods have registered for ObjectCreated or ObjectDestroyed callbacks. Disabling ObjectCreatedSystem.
+ECSManager: removing worlds from the update loop.
+ECSManager: converting authoring data.
+ECSManager: converting authoring data for the server world.
+Found 319 converter(s)
+Converting 1 root objects for ServerWorld with 319 converters, 7 post-converters in staging world, and 4 post-converters in final world.
+PugDatabase initialized 2402 prefabs
+ECSManager: ServerWorld conversion complete.
+ECSManager: converting authoring data for the server world complete.
+Unloading 355 unused Assets to reduce memory usage. Loaded Objects now: 601756.
+Total: 112.483000 ms (FindLiveObjects: 34.021500 ms CreateObjectMapping: 8.107800 ms MarkObjects: 69.510500 ms  DeleteObjects: 0.842800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 2)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 601755.
+Total: 111.549300 ms (FindLiveObjects: 35.272500 ms CreateObjectMapping: 8.235200 ms MarkObjects: 67.609600 ms  DeleteObjects: 0.431400 ms)
+
+ECSManager: converting authoring data for the client world.
+Found 319 converter(s)
+Converting 1 root objects for ClientWorld0 with 319 converters, 7 post-converters in staging world, and 4 post-converters in final world.
+PugDatabase initialized 2402 prefabs
+ECSManager: ClientWorld0 conversion complete.
+ECSManager: converting authoring data for the client world complete.
+ECSManager: adding worlds to the update loop.
+ECSManager: initializing worlds.
+Simulation tick rate=20 Network tick rate=20
+disable default variant system group for world ServerWorld
+disable CompanionGameObjectUpdateTransformSystem for world ServerWorld
+disable ParentSystem for world ServerWorld
+Simulation tick rate=20 Network tick rate=20
+disable default variant system group for world ClientWorld0
+disable CompanionGameObjectUpdateTransformSystem for world ClientWorld0
+disable ParentSystem for world ClientWorld0
+PlayFabPartyNetworking.RegisterToPlayFabEvents
+PlayFabPartySessionWrapper.CreateSession
+PlayFabPartySessionWrapper.CreateSession: Starting user login.
+ConvertAuthoringDataRoutine complete. Process was successful.
+Client connected
+PredictedSimulationSystemGroup: 13 systems in partial update
+Running 0 electricity updates initially
+Decompressed gzip compressed world file: 675750 bytes -> 12499440 bytes
+Deserialize world finishied
+successfully loaded world file into SerializeWorld
+found 591 chunks in serialized world
+Got steam auth ticket, logging in to PlayFab
+Using seed 642554449
+World uses generation type FullRelease
+send mod info request
+send connect with hash 2891404511432763722 for 1638 ghosts
+PlayFab login successful for user 76561198416086184, id FE84EF9F12032E91.
+PlayFabPartySessionWrapper.HandleAuthenticationSuccess: PlayFab user logged in successfully.
+PlayFabPartySessionWrapper.CreateSession: Create and join PlayFab network.
+Adding marker for ShamanBossRoom at int2(-221, -203)
+Adding marker for PoisonSlimeBossDungeon at int2(-331, 505)
+Adding marker for SlipperySlimeBossDungeon at int2(-498, -496)
+Adding marker for OctopusBossArea at int2(-566, -316)
+Adding marker for ScarabBossArea at int2(557, -194)
+Adding marker for LavaSlimeBossDungeon at int2(534, 274)
+Adding marker for CrystalMeteorScene at int2(550, 440)
+Read cartography table map with 0 parts
+server has ghost collection hash 2891404511432763722 for 1638 ghosts
+Accepted connect RPC
+Connected to server betonamu (4e2f9c1fb4b5048383dac678a2180628)
+spawning player with character data size 16521
+Enabling player entity
+[userid:4915877266161926271] player Matsumoto connected islocalplayer=True
+[userid:4915877266161926271] is using new name Matsumoto
+Started game for new connection
+PlayFabPartySessionWrapper.CreateSession: Create and join PlayFab network successful.
+PlayFabPartySessionWrapper: connection type is RelayServer.
+PlayFabPartySessionWrapper.CreateSession: Creating lobby.
+Found game ID KU45QLHP with 0 collisions
+PlayFabLobbyManager.CreateLobbyInternal: creating a lobby.
+encrypted party descriptor in 165 ms
+has loaded enough from server; ready to fade in
+PlayFabLobbyManager.CreateLobbyInternal: Lobby created.
+PlayFabPartySessionWrapper.CreateSession: Creating platform session.
+PlayFabPartySessionWrapper: platform session created.
+PlayFabPartyNetworking.CreateSessionCompletion: Successfully started session.
+MusicManager: start loading addressable asset [c5ae47d1c5a70a24a85ebe4e575e6d01].
+MusicManager: loading addressable asset [[c5ae47d1c5a70a24a85ebe4e575e6d01]|Dirt_Biome_3_R1] complete.
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Allocating a new file write buffer of size 8.000MB for WorldSave. Total buffer size for this file including pool is 8.000MB
+MusicManager: releasing addressable asset Dirt_Biome_3_R1.
+MusicManager: start loading addressable asset [7b9afea50dec81146bf72588f3689bcf].
+MusicManager: loading addressable asset [[7b9afea50dec81146bf72588f3689bcf]|Dirt_Biome_4] complete.
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+RadicalPauseMenu_InvitePlayers.UpdateState: can send invites.
+timescale = 0
+LoadManager.ExitGame: Exiting from inGame.
+timescale = 1
+Writing map data
+PlayFabPartyNetworking.UnregisterFromPlayFabEvents
+PlayFabPartySessionWrapper.StopSession
+PlayFabPartySessionWrapper.StopSession: Ending platform session.
+PlayFabPartySessionWrapper.StopSession: left platform session.
+PlayFabPartySessionWrapper.StopSession: Leave lobby.
+OnFree called for Matsumoto (Player(Clone))
+PlayFabPartySessionWrapper.StopSession: Tried to stop session while it is already being stopped.
+PlayFabPartyNetworking.UnregisterFromPlayFabEvents
+CloudSyncUp
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798192, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798170, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798148, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798126, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798104, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798082, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798060, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798038, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-798016, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797994, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797928, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797906, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797884, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797862, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797840, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797818, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797796, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797774, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797752, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797730, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797708, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797686, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797664, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797598, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797576, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797554, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797532, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-797510, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-981948, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-981970, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-981992, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982014, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982036, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982058, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982080, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982102, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982124, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982146, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982190, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982212, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982234, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982256, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982300, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982322, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982344, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982366, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982388, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982410, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982432, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982454, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982498, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982520, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982542, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982564, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982630, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982652, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982696, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982740, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982762, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982806, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982828, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982850, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982894, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982916, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982938, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982960, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-982982, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983004, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983026, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983048, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983070, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983092, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983114, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983180, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983202, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983224, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983246, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983268, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983356, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983378, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983400, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983422, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983466, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983488, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983510, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983532, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983554, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983576, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983598, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983620, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983642, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983664, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983776, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-983972, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-984146, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-984168, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-984410, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-984432, name=TorchParticles(Clone))
+Pool<TorchParticles>: Trying to free an object that is not allocated (instanceID=-984860, name=TorchParticles(Clone))
+Unloading 3 Unused Serialized files (Serialized files now loaded: 6)
+UnloadTime: 11.576400 ms
+MusicManager: releasing addressable asset Dirt_Biome_4.
+MusicManager: start loading addressable asset [cc83026275aa73a4381a3c8c1b855b86].
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 607551.
+Total: 129.361600 ms (FindLiveObjects: 40.371900 ms CreateObjectMapping: 9.024200 ms MarkObjects: 79.252500 ms  DeleteObjects: 0.712400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 6)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 607551.
+Total: 129.122800 ms (FindLiveObjects: 39.324600 ms CreateObjectMapping: 9.295300 ms MarkObjects: 80.077000 ms  DeleteObjects: 0.425300 ms)
+
+MusicManager: loading addressable asset [[cc83026275aa73a4381a3c8c1b855b86]|Main_Menu] complete.
+PlayFabLobbyManager.LeaveLobbyInternal: PlayFab Lobby left successfully.
+PlayFabPartySessionWrapper.StopSession: left lobby.
+PlayFabPartySessionWrapper.StopSession: Leaving PlayFabPartyNetwork.
+PlayFabPartySessionWrapper.StopSession: Successfully left PlayFabPartyNetwork.
+PlayFabPartySessionWrapper.StopSession: Starting user logout.
+PlayFabPartySessionWrapper.StopSession: User logged out.
+PlayFabPartySessionWrapper.StopSession: Session stop complete.
+Got quit request
+waiting for ModIO shutdown
+Exit blocked by ModManager
+Quit blocked
+Got quit request
+Running quit handlers
+PlayFabPartySessionWrapper.StopSession
+PlayFabPartySessionWrapper.StopSession: Ending platform session.
+PlayFabPartySessionWrapper.StopSession: left platform session.
+PlayFabPartySessionWrapper.StopSession: Leave lobby.
+PlayFabPartyNetworking.UnregisterFromPlayFabEvents
+PlayFabLobbyManager.LeaveLobbyInternal: can't leave a lobby since we don't have a current one at the moment.
+PlayFabPartySessionWrapper.StopSession: left lobby.
+PlayFabPartySessionWrapper.StopSession: Leaving PlayFabPartyNetwork.
+PlayFabPartySessionWrapper.LeaveNetworkAsync: Tried to leave network, but not currently connected to a network.
+PlayFabPartySessionWrapper.StopSession: Successfully left PlayFabPartyNetwork.
+PlayFabPartySessionWrapper.StopSession: Starting user logout.
+PlayFabPartySessionWrapper.StopSession: User logged out.
+PlayFabPartySessionWrapper.StopSession: Session stop complete.
+PrefsManager.Write: no need to write settings to disk as they are unchanged.
+CloudSyncUp
+PlatformManager was destroyed
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 1350 frames, [16.0 KB-32.0 KB]: 1816 frames, [32.0 KB-64.0 KB]: 708 frames, [64.0 KB-128.0 KB]: 2 frames, [128.0 KB-256.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 2 frames, [0.5 MB-1.0 MB]: 15618 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 5 frames, [4.0 MB-8.0 MB]: 7 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 7.4 MB
+      Overflow Count 15494
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 108.0 KB
+      Peak Allocated Bytes 104.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 508.0 KB
+      Peak Allocated Bytes 506.9 KB
+      Overflow Count 57
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 25.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 15.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 3.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 295.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 15.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 15.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 411 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 603265
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 102 Subsections = 104448 buckets. Failed count: 1717145
+        32B: 39 Subsections = 19968 buckets. Failed count: 1744490
+        48B: 29 Subsections = 9898 buckets. Failed count: 505457
+        64B: 26 Subsections = 6656 buckets. Failed count: 552722
+        80B: 49 Subsections = 10035 buckets. Failed count: 198046
+        96B: 6 Subsections = 1024 buckets. Failed count: 75332
+        112B: 2 Subsections = 292 buckets. Failed count: 248002
+        128B: 3 Subsections = 384 buckets. Failed count: 390852
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [64.0 MB-128.0 MB]: 1 frames, [0.50 GB-1.00 GB]: 19507 frames, [1.00 GB-2.00 GB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 65
+      Peak Allocated memory 1.10 GB
+      Peak Large allocation bytes 312.2 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [256.0 MB-0.50 GB]: 122 frames, [0.50 GB-1.00 GB]: 19388 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 26
+      Peak Allocated memory 0.72 GB
+      Peak Large allocation bytes 335.7 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 6
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 102 Subsections = 104448 buckets. Failed count: 1717145
+        32B: 39 Subsections = 19968 buckets. Failed count: 1744490
+        48B: 29 Subsections = 9898 buckets. Failed count: 505457
+        64B: 26 Subsections = 6656 buckets. Failed count: 552722
+        80B: 49 Subsections = 10035 buckets. Failed count: 198046
+        96B: 6 Subsections = 1024 buckets. Failed count: 75332
+        112B: 2 Subsections = 292 buckets. Failed count: 248002
+        128B: 3 Subsections = 384 buckets. Failed count: 390852
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 1778 frames, [16.0 MB-32.0 MB]: 19 frames, [32.0 MB-64.0 MB]: 17712 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 57.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 5 frames, [1.0 MB-2.0 MB]: 1791 frames, [2.0 MB-4.0 MB]: 97 frames, [4.0 MB-8.0 MB]: 17589 frames, [8.0 MB-16.0 MB]: 26 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 9.2 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 28639
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 102 Subsections = 104448 buckets. Failed count: 1717145
+        32B: 39 Subsections = 19968 buckets. Failed count: 1744490
+        48B: 29 Subsections = 9898 buckets. Failed count: 505457
+        64B: 26 Subsections = 6656 buckets. Failed count: 552722
+        80B: 49 Subsections = 10035 buckets. Failed count: 198046
+        96B: 6 Subsections = 1024 buckets. Failed count: 75332
+        112B: 2 Subsections = 292 buckets. Failed count: 248002
+        128B: 3 Subsections = 384 buckets. Failed count: 390852
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [64.0 MB-128.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 19509 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 44
+      Peak Allocated memory 189.6 MB
+      Peak Large allocation bytes 51.4 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [256.0 KB-0.5 MB]: 3 frames, [2.0 MB-4.0 MB]: 4 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 19501 frames, [16.0 MB-32.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 3
+      Peak Allocated memory 18.9 MB
+      Peak Large allocation bytes 12.3 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 102 Subsections = 104448 buckets. Failed count: 1717145
+        32B: 39 Subsections = 19968 buckets. Failed count: 1744490
+        48B: 29 Subsections = 9898 buckets. Failed count: 505457
+        64B: 26 Subsections = 6656 buckets. Failed count: 552722
+        80B: 49 Subsections = 10035 buckets. Failed count: 198046
+        96B: 6 Subsections = 1024 buckets. Failed count: 75332
+        112B: 2 Subsections = 292 buckets. Failed count: 248002
+        128B: 3 Subsections = 384 buckets. Failed count: 390852
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 19509 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 3 frames, [256.0 KB-0.5 MB]: 2 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 19503 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.2 MB
+      Peak Large allocation bytes 0 B
